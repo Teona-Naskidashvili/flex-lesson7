@@ -1,50 +1,4 @@
-/*.conteiner{
-	width: 1170px;
-	margin: 0 auto;
-	background: yellow;
-}
-.block{
-	width: 351px;
-	height: 354px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-}
-.red{
-	background: red;
-}
-.yellow{
-	background: grey;
-}
-.green{
-	background: green;
-}
-.line1{
-	display: flex;
-	justify-content: space-between;
-}
-.blue-icon{
-	background: blue;
-	width: 88px;
-	height: 88px;
-	border-radius: 50%;
-	display: flex;
-	justify-content: center;
-	align-items: center ;
 
-}
-.img{
-	width: 50px;
-	height: 50px;
-}
-.text-block{
-	width: 770px;
-	text-align: center;
-	margin: 0 auto;
-	align-items: center
-}*/
- /*section1*/
  .conteiner{
  	width: 1708px;
  	height: 1187px;
@@ -52,7 +6,7 @@
  	margin-top: 67px;
  }
  .conteiner1{
- 	width: 1708px;
+ 	width: 1170px;
     margin: 0 auto;
 
  }
@@ -66,8 +20,13 @@
  	display: flex;
  	justify-content: space-between;
  	width: 581px;
- 	font-size: 20px;
+ 	
  }
+ .text1{
+	color: #3D37F1;
+	font-size: 20px;
+	font-weight: bold;
+}
  .block1{
  	display: flex;
  	justify-content: space-between;
@@ -143,8 +102,6 @@
 .line1{
   display: flex;
   flex-wrap: wrap;
-  width: 1170px;
-  margin: 0 auto;
 }
 .line1-header{
 	font-size: 22px;
@@ -162,11 +119,14 @@
 }
 .white-icon{
 	border-radius: 100px;
-	background: white;
+	color: white;
 	width: 131px;
 	height: 45px;
 	display: flex;
 	justify-content: center;
+	border: 2px solid white;
+	font-weight: bold;
+	font-size: 15px;
 	align-items: center 
 }
 .block2:first-child {
@@ -196,5 +156,6 @@
 }
 .white-icon:hover{
 	transform: scale(1.1);
-	background: red;
+	background: white;
+	color: black;
 }
